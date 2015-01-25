@@ -1,0 +1,5 @@
+name: UUIDcheck
+main: org.kotobaminers.uuidcheck.uuidcheck.UUIDcheck
+version: ${git.commit.id.describe}
+commands:
+  uuid:
