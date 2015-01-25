@@ -1,0 +1,4 @@
+/target
+/testserver
+/.settings
+/src/main/resources/git.properties
