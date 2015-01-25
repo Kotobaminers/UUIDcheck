@@ -1,5 +1,8 @@
 name: UUIDcheck
 main: org.kotobaminers.uuidcheck.uuidcheck.UUIDcheck
 version: ${git.commit.id.describe}
+author: Thasan
+website: http://www.kotobaminers.org/plugins/UUIDcheck
+database: false
 commands:
   uuid:
