@@ -16,12 +16,12 @@ public final class UUIDcheckPlayerListener implements Listener {
 	@EventHandler
 	public void playerLogin(PlayerLoginEvent event) {
 		if(event.getPlayer().getUniqueId().version() != 4) {
-			plugin.printInfo("Warning /!\\ player with wrong UUID version has joined to the server!");
+			UUIDcheck.printInfo("Warning /!\\ player with wrong UUID version has joined to the server!");
 
 			plugin.printPlayerinfo(event.getPlayer());
 			if(event.getPlayer().isOp()) {
 				event.getPlayer().setOp(false);
-				plugin.printInfo("    For safety reasons, OP is removed!");
+				UUIDcheck.printInfo("    For safety reasons, OP is removed!");
 				for(Player player : Bukkit.getServer().getOnlinePlayers()) {
 					if(player.isOp()) {
 						player.sendMessage("For safety reasons, player " + event.getPlayer().getName() + " OP is removed!");
