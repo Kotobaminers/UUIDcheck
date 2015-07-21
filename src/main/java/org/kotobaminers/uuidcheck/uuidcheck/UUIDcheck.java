@@ -1,6 +1,5 @@
 package org.kotobaminers.uuidcheck.uuidcheck;
 
-import java.net.InetSocketAddress;
 import java.util.logging.Logger;
 
 import org.bukkit.Bukkit;
